@@ -1,0 +1,114 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: montserrat, arial, verdana;
+    background: transparent;
+}
+
+.uidai-header-2 {
+    background: linear-gradient(119.54deg, #000046 0%, #1CB5E0 100%);
+}
+
+
+.centerinfo {
+    color: #fff;
+    font-size: .9em;
+    margin: 0;
+    font-weight: 100;
+}
+
+.aadhaar-logo {
+    width: 100px;
+}
+
+.top-bar {
+    padding: 5px 0;
+}
+
+table.logo-table td {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.logo-table .main-h {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul.inline-ul {
+    margin-top: 25px;
+}
+
+ul.inline-ul a {
+    color: #d52736;
+    text-decoration: none;
+}
+
+ul.inline-ul li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.booking-info {
+    padding: 10px 0px;
+}
+
+.custom-btn {
+    border-radius: 0em;
+    margin: .2em;
+    background-color: #FFF;
+    color: #007bff !important;
+    min-width: 300px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.custom-btn:hover {
+    color: #FFF !important;
+}
+
+.custom-print {
+    border-radius: 0em;
+    margin: .2em;
+    color: #fff !important;
+    min-width: 300px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.custom-btn:print {
+    color: #FFF !important;
+}
+
+.circle {
+    border-radius: 30px;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.btn-xs {
+    padding: 4px 10px;
+    font-size: .9em;
+    border-radius: 0em;
+    margin-top: -1px;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
